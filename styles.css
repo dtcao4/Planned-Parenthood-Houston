@@ -1,0 +1,911 @@
+* {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+p {
+  line-height: 170%;
+  font-size: 110%;
+  font-weight: 400;
+  margin-bottom: 4%;
+}
+
+h1 {
+  font-size: 250%;
+  line-height: 120%;
+  margin-bottom: 3%;
+}
+
+h2 {
+  line-height: 130%;
+  font-size: 170%;
+  margin-bottom: 3%;
+}
+
+h3 {
+  line-height: 120%;
+  margin-bottom: 5%;
+}
+
+h4 {
+  padding: 2%;
+  margin-top: 3%;
+  margin-bottom: 18%;
+  font-weight: 700;
+  font-size: 90%;
+  line-height: 140%;
+  width: 100%;
+}
+
+.section-title {
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+header {
+  background-color: #F27599;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+      
+.logo {
+  width: 15%;
+  padding: 1.5% 1.5% 1.5% 0%;
+  margin-left: 150px;
+}
+
+nav {
+  margin-right: 150px;
+  padding: 1.8% 0% 1.5% 0%;
+  width: 45%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+  font-weight: 600;
+  margin-right: 2.5%;
+  float: right;
+}
+
+.link-edit {
+  margin-right: 0%;
+}
+
+footer {
+  background-color: #F27599;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Index Page!! */
+/* Index Page!! */
+/* Index Page!! */
+.top-intro {
+  background-image: url(pp%20houston.jpg);
+  background-position: fixed;
+  object-fit: cover;
+  height: 500px;
+  max-width: 100%;
+  position: relative;
+}
+
+.top-intro p {
+  font-weight: 600;
+}
+
+.intro-text {
+  display: inline block;
+  width: 30%;
+  margin-left: 150px;
+  padding-top: 100px;
+}
+      
+.top-news {
+  color: white;
+  background-color: #054D7F;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.supreme-court {
+  line-height: 20px;
+}
+
+.news-text {
+  width: 35%;
+  padding: 2% 1% 1% 0%;
+  margin-left: 150px;
+}
+
+.learn-button {
+  padding: 6% 0% 5% 0%;
+  margin-right: 150px;
+}
+
+.learn-button-ver2 {
+  padding: 5% 0% 5% 0%;
+  margin-right: 150px;
+}
+
+.learn-more {
+  font-size: 110%;
+  padding: 10px 20px;
+  background-color: white;
+  color: #F27599;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  opacity: 0.7;
+}
+
+.sign-and-ask {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10% 0% 10% 0%;
+}
+
+.sect-sign {
+  background-color: #199ECC;
+  color: white;
+  width: 30%;
+  padding: 3% 2% 3% 2%;
+  margin-left: 150px;
+
+}
+
+.sect-ask {
+  background-color: #199ECC;
+  color: white;
+  width: 30%;
+  margin-right: 150px;
+  padding: 3% 2% 3% 2%;
+}
+
+.sign-up {
+  padding: 1% 9% 2% 9%;
+}
+
+.ask-us-anything {
+  padding: 1% 9% 0% 9%;
+}
+
+.chat-button {
+  display: block;
+  margin-left: 36%;
+  margin-top: 8%;
+  padding: 3%;
+}
+
+.chat:hover {
+  opacity: 0.7;
+}
+
+.chat {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: #F27599;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.subscribe-button {
+  margin-left: 33%;
+  padding: 3%;
+  display: flex;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.subscribe {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: #F27599;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.find-health {
+  color: white;
+  background-color: #054D7F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.find-health-text {
+  margin-left: 150px;
+  padding: 2% 2% 1% 0%;
+  width: 35%;
+}
+
+.search-button-2 {
+  margin-right: 150px;
+  margin-top: 6%;
+}
+
+.issues {
+  background-color: white;
+  margin: 5% 0% 5% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 350px;
+}
+
+.issues-text {
+  width: 35%;
+  margin-left: 150px;
+  padding: 2% 2% 2% 0%;
+}
+
+.issues-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  text-align: center;
+  margin-right: 150px;
+}
+
+.indiv-box {
+  position: relative;
+  border: solid;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 4% 3% 3% 3%;
+  height: 63%;
+  width: 25%;
+}
+
+.indiv-box-2 {
+  margin-right: 150px;
+  border: solid;
+  padding: 4% 3% 3% 3%;
+  height: 63%;
+  width: 25%;
+  margin-top: 5%;
+  margin-right: 150px;
+}
+
+.box-image {
+  height: 40%;
+}
+
+.learn-only-button {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: #F27599;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.learn-only-button:hover {
+  opacity: 0.7;
+}
+
+.get-involved {
+  color: white;
+  background-color: #199ECC;
+  padding: 1% 1% 0% 0%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.involved-text {
+  display: inline block;
+  width: 35%;
+  padding: 1% 1% 1% 0%;
+  margin-left: 150px;
+}
+
+.learn-button-2 {
+  float: right;
+  padding: 5% 0% 5% 0%;
+  padding-right: 150px;
+  display: flex;
+}
+
+.footer {
+  color: white;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  height: 70px;
+  margin-left: 150px;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  width: 35%;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.right-text {
+  display: flex;
+  flex direction: row;
+  justify-content: space-between;
+  width: 46%;
+  margin-right: 150px;
+  color: white;
+  margin-top: 17%;
+}
+
+.socials-box {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.socials {
+  text-decoration: none;
+  width: 3%;
+  margin-right: .5%;
+  margin-bottom: 3%;
+}
+
+.socials:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Who We Are!! */
+/* Who We Are!! */
+/* Who We Are!! */
+.top-intro-2 {
+  background-image: url(mission-who%20we%20are.jpg);
+  background-position: center;
+  object-fit: cover;
+  height: 500px;
+}
+
+.top-intro-2 p {
+  font-weight: 600;
+}
+
+.health-appointment {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.public-health {
+  width: 40%;
+  padding: 1% 1% 1% 0%;
+  margin: 100px 0px 50px 150px;
+}
+
+.appointment {
+  background-color: #054D7F;
+  width: 25%;
+  margin-right: 150px;
+  float: right;
+  color: white;
+  padding: 3%;
+  margin-top: 20px;
+}
+
+.blog-row {
+  background-color: #199ECC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog {
+  width: 40%;
+  padding: 2% 1% 1% 0%;
+  margin-left: 150px;
+  color: white;
+}
+
+
+.blog-button-div {
+  margin-top: 4%;
+  object-position: center;
+  padding: 2% 0% 2% 2%;
+  margin-right: 150px;
+}
+
+.mission-row {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mission {
+  width: 45%;
+  padding: 1% 1% 1% 0%;
+  margin-left: 150px;
+  margin: 100px 100px 100px 150px;
+}
+
+.mission-intro {
+  margin-bottom: 15px;
+}
+.mission-list {
+  margin-bottom: 15px;
+}
+
+.images-3 {
+  width: 60%;
+  padding: 1% 1% 1% 0%;
+  margin-right: 150px;
+  margin: 100px 100px 100px 150px;
+}
+
+.leader {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.leader-text {
+  width: 40%;
+  margin-left: 150px;
+}
+
+.search-button-overall {
+  margin-top:5%;
+  object-position: center;
+  padding: 5% 5% 5% 0%;
+}
+
+.search-button {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: #F27599;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-button:hover {
+  opacity: 0.7;
+}
+
+.commit-row {
+  background-color: #054D7F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.commit-text {
+  padding: 4% 3% 3% 0%;
+  color: white;
+  width: 40%;
+  margin-left: 150px;
+}
+
+.read-button-overall {
+  object-position: center;
+  padding: 7% 0% 5% 7%;
+  margin-right: 150px;
+}
+
+.read-button {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: #F27599;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.read-button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+/* Issues!! */
+/* Issues!! */
+/* Issues!! */
+.top-intro-3 {
+  background-image: url(issues%20img.jpg);
+  background-position: fixed;
+  object-fit: cover;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.intro-text-white {
+  color: white;
+  width: 45%;
+}
+
+.roe-outer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px 0px 50px 150px;
+}
+
+.roe-text {
+  width: 40%;
+  padding: 1% 1% 1% 0%;
+}
+
+.health-equity-box {
+  padding: 1% 0% 1% 1%;
+  margin-right: 80px;
+  width: 35%;
+}
+
+.health-text {
+  background-color: #054D7F;
+  color: white;
+  padding: 8%;
+  width: 70%;
+  margin: 0;
+}
+
+.box-text {
+  font-size: 90%;
+  margin-bottom: 2%;
+}
+
+.sexual-box {
+  padding: 1% 1% 1% 0%;
+  margin-left: 150px;
+  width: 35%;
+}
+
+.sex-vote-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.sexual {
+  background-color: #199ECC;
+  color: white;
+  padding: 8%;
+}
+
+.voting-box {
+  padding: 1% 0% 1% 1%;
+  margin-right: 150px;
+  width: 35%;
+}
+
+.voting {
+  background-color: #054D7F;
+  color: white;
+  padding: 8%;
+}
+
+.speak-button-overall {
+  object-position: center;
+  padding: 8% 0% 5% 7%;
+  margin-right: 150px;
+}
+
+.speak-button {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: #F27599;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.speak-button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+/* Get Involved!! */
+/* Get Involved!! */
+/* Get Involved!! */
+.top-intro-4 {
+  background-image: url(get%20involved.jpg);
+  background-position: top;
+  object-fit: cover;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.top-intro-4 p {
+  font-weight: 600;
+  width: 70%;
+}
+
+.fundraiser-info {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fundraiser-text {
+  margin-left: 150px;
+  width: 45%;
+  padding: 1% 1% 1% 0%;
+}
+
+.donate-outer {
+  background-color: #054D7F;
+  width: 30%;
+  height: 550px;
+  margin-right: 150px;
+  margin-top: 1%;
+}
+
+.donate-info {
+  padding: 10%;
+  color: white;
+}
+
+.donate-button-overall {
+  object-position: center;
+  margin-top: 10%;
+  padding: 10% 5% 10% 25%;
+}
+
+.donate-button {
+  font-size: 100%;
+  padding: 10px 20px;
+  background-color: #F27599;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.donate-button:hover {
+  opacity: 0.7;
+}
+
+.musical-info {
+  margin-top: 100px;
+}
+
+.musical-guest {
+  display: inline block;
+  width: 45%;
+  padding: 0% 2% 0% 0%;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.musical-subhead {
+  font-weight: bold;
+}
+
+.join-us {
+  background-color: #199ECC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.join-text {
+  color: white;
+  padding: 2% 2% 1% 0%;
+  width: 45%;
+  margin-left: 150px;
+}
+
+.sign-me-up {
+  padding: 6% 0% 5% 5%;
+  margin-right: 150px;
+}
+
+
+.musical-image-div {
+  margin-bottom: 1%;
+}
+
+.musical-image {
+  width: 80%;
+  padding: 0% 3% 3% 0%;
+}
+
+.leyline-image {
+  width: 45%;
+  padding: 0% 0% 4% 0%;
+}
+
+.small-text {
+  font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Services!! */
+/* Services!! */
+/* Services!! */
+.top-intro-5 {
+  background-image: url(get%20care.jpg);
+  background-position: fixed;
+  object-fit: cover;
+  height: 500px;
+}
+
+.top-intro-5 p {
+  font-weight: 600;
+}
+
+.care-and-image {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.primary-care {
+  width: 55%;
+  padding: 1%;
+  margin: 100px 100px 50px 150px;
+}
+
+.images {
+  width: 55%;
+  margin: 130px 150px 100px 0px;
+  float: right;
+}
+
+.services-row {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.get-care {
+  width: 40%;
+  padding: 1%;
+  margin-left: 150px;
+  margin: 50px 100px 100px 150px;
+}
+
+.chat-with-us {
+  background-color: #199ECC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chat-text {
+  margin-left: 150px;
+  color: white;
+  padding: 2% 2% 2% 0%;
+  width: 32%;
+}
+
+.images-2 {
+  margin-right: 150px;
+  padding: 3%;
+  width: 40%;
+}
+
+.advanced-services {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 150px 0px 150px 150px;
+}
+
+.advanced-text {
+  color: white;
+  padding: 3%;
+  width: 35%;
+  background-color: #054D7F;
+}
+
+.service-learn-button {
+  margin: 5% 0% 0% 0%;
+  padding: 2% 0% 2% 0%;
+}
+
+.right-image {
+  width: 33%;
+  margin-right: 150px;
+}
